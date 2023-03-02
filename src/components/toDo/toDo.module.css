@@ -1,0 +1,6 @@
+.td {
+  text-align: center;
+  overflow: hidden;
+  max-width: 100px;
+  text-overflow: ellipsis;
+}
