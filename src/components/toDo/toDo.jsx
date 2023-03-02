@@ -13,7 +13,7 @@ export const ToDo = ({ id, title, description, status, openModal }) => {
     <tr className={s.item}>
       <td
         className={s.td}
-        onClick={() => openModal({ id, title, description, status })}
+        onClick={() => openModal(id, title, description, status)}
       >
         {id}
       </td>
